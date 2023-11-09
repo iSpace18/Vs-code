@@ -1,6 +1,6 @@
 a.button {
   display: inline-block;
-  background: #2196f3;
+  background: rgb(243, 33, 33);
   color: #fff;
   padding: 12px;
   border-radius: 3px;
@@ -9,9 +9,13 @@ a.button {
   font-size: 18px;
   line-height: 1;
   font-weight: 100;
+  text-align: center;
 }
 
 div {
   margin: 24px;
   text-align: center;
 }
+html{background-color: skyblue;}
+h1{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 800;}
