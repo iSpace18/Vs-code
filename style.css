@@ -1,7 +1,7 @@
 a.button {
   display: inline-block;
-  background: red;
-  color: #fff;
+  background: whitesmoke;
+  color: black;
   padding: 12px;
   border-radius: 3px;
   text-decoration: none;
@@ -16,11 +16,26 @@ div {
   text-align: center;
 }
 
-html {
-  background-color: skyblue;
-}
 
 h1 {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-weight: 800;
+  font-weight: 900;
+  color: white;
+}
+body {
+  background: linear-gradient(45deg, rgb(107, 196, 255), #f305d7);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  50% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
 }
