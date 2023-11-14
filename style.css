@@ -1,6 +1,6 @@
 a.button {
   display: inline-block;
-  background:white;
+  background: white;
   color: black;
   padding: 13px;
   border-radius: 100px;
@@ -9,10 +9,10 @@ a.button {
   font-size: 20px;
   line-height: 1;
   font-weight: 100;
-  width:140px;
+  width: 140px;
   margin: 1 auto;
 }
-a:hover{
+a:hover {
   background-color: whitesmoke;
 }
 
@@ -21,9 +21,8 @@ div {
   text-align: center;
 }
 
-
 h1 {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 900;
   color: white;
 }
