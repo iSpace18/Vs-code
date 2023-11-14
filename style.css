@@ -9,6 +9,7 @@ a.button {
   font-size: 18px;
   line-height: 1;
   font-weight: 100;
+  width:130px;
 }
 a:hover{
   background-color: cadetblue;
