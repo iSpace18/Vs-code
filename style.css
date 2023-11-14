@@ -10,6 +10,9 @@ a.button {
   line-height: 1;
   font-weight: 100;
 }
+a:hover{
+  background-color: cadetblue;
+}
 
 div {
   margin: 24px;
