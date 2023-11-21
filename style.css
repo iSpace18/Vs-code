@@ -43,12 +43,32 @@ a.telegram {
   width: 140px;
   margin: 1 auto;
 }
-a:hover {
-  background-color: black;
-  color: white;
-}
+
 div.tg {
   position: absolute;
   right: 0px;
   top: 50px;
+}
+div.git {
+  position: absolute;
+  right: 0px;
+  top: 120px;
+}
+a.GitHub {
+  display: inline-block;
+  background: gray;
+  color: black;
+  padding: 13px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 100;
+  width: 140px;
+  margin: 1 auto;
+}
+a:hover {
+  background-color: black;
+  color: white;
 }
