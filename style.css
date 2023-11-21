@@ -11,14 +11,16 @@ a.button {
   font-weight: 100;
   width: 140px;
   margin: 1 auto;
+  
 }
 a:hover {
-  background-color: whitesmoke;
+  background-color: purple;
 }
 
 div {
   margin: 24px;
   text-align: center;
+
 }
 
 h1 {
@@ -26,20 +28,29 @@ h1 {
   font-weight: 900;
   color: white;
 }
-body {
-  background: linear-gradient(45deg, rgb(101, 193, 255), #4505f3);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+body{
+  background-color: #282c34;
 }
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 0%;
-  }
-  50% {
-    background-position: 100% 0%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
+a.telegram {
+  display: inline-block;
+  background: #188194;
+  color: black;
+  padding: 13px;
+  border-radius: 100px;
+  text-decoration: none;
+  font-family: Tahoma;
+  font-size: 20px;
+  line-height: 1;
+  font-weight: 100;
+  width: 140px;
+  margin: 1 auto;
+}
+a:hover{
+  background-color: black;
+  color: white;
+}
+div.tg{
+  position:absolute;
+  right:0px;
+  top:50px;
 }
