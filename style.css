@@ -1,3 +1,4 @@
+
 a.button {
   display: inline-block;
   background: white;
@@ -12,10 +13,10 @@ a.button {
   width: 140px;
   margin: 1 auto;
   border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-a:hover {
-  background-color: purple;
-}
+
 
 div {
   margin: 24px;
@@ -72,7 +73,7 @@ a.GitHub {
   border: 1px solid black;
 }
 a:hover {
-  background-color: black;
+  background-color: greenyellow;
   color: white;
 }
 ::selection {
