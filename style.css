@@ -73,7 +73,7 @@ a.GitHub {
   border: 1px solid black;
 }
 a:hover {
-  background-color: greenyellow;
+  background-color: purple;
   color: white;
 }
 ::selection {
