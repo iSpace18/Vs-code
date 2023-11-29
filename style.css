@@ -14,7 +14,7 @@ a.button {
   margin: 1 auto;
   border: 1px solid black;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.75s ease;
 }
 
 
@@ -33,7 +33,7 @@ body {
 }
 a.telegram {
   display: inline-block;
-  background: #188194;
+  background: #2299d4;
   color: black;
   padding: 13px;
   border-radius: 100px;
@@ -45,6 +45,8 @@ a.telegram {
   width: 140px;
   margin: 1 auto;
   border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 
 div.tg {
@@ -59,7 +61,7 @@ div.git {
 }
 a.GitHub {
   display: inline-block;
-  background: gray;
+  background: orange;
   color: black;
   padding: 13px;
   border-radius: 100px;
@@ -71,12 +73,19 @@ a.GitHub {
   width: 140px;
   margin: 1 auto;
   border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.5s ease;
 }
 a:hover {
-  background-color: purple;
+  background-color: black;
   color: white;
 }
 ::selection {
   background-color: black;
   color: white
 }
+a.GitHub:hover{
+  background-color: orangered;
+}
+a.telegram:hover{
+  background: blue;}
