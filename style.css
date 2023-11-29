@@ -29,12 +29,12 @@ h1 {
   color: white;
 }
 body {
-  background-color: #282c34;
+  background-color: #111;
 }
 a.telegram {
   display: inline-block;
   background: #2299d4;
-  color: black;
+  color: white;
   padding: 13px;
   border-radius: 100px;
   text-decoration: none;
@@ -61,8 +61,8 @@ div.git {
 }
 a.GitHub {
   display: inline-block;
-  background: green;
-  color: black;
+  background: darkslategrey;
+  color: white;
   padding: 13px;
   border-radius: 100px;
   text-decoration: none;
@@ -85,7 +85,9 @@ a:hover {
   color: white
 }
 a.GitHub:hover{
-  background-color: greenyellow;
+  background-color: black;
+  color: white;
 }
 a.telegram:hover{
-  background: blue;}
+  background: black;
+}
