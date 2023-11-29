@@ -61,7 +61,7 @@ div.git {
 }
 a.GitHub {
   display: inline-block;
-  background: orange;
+  background: green;
   color: black;
   padding: 13px;
   border-radius: 100px;
@@ -85,7 +85,7 @@ a:hover {
   color: white
 }
 a.GitHub:hover{
-  background-color: orangered;
+  background-color: greenyellow;
 }
 a.telegram:hover{
   background: blue;}
