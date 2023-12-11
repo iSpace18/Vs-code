@@ -13,6 +13,7 @@ h1 {
 }
 
 a.button {
+  
   display: inline-block;
   background: #806760;
   color: black;
@@ -27,12 +28,13 @@ a.button {
   margin: 1 auto;
   border: 1px solid #111;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 1s ease;
   /* background-image: url(1614780409_161-p-prozrachnie-foni-dlya-prezentatsii-210.png); */
 }
 a:hover {
   background-color: #85716b;
   color: black;
+  transform: scale(1.2)
 }
 
 
@@ -41,7 +43,7 @@ div {
   text-align: center;
 }
 
-a.telegram {
+/* a.telegram {
   display: inline-block;
   background: #393939;
   color: white;
@@ -57,14 +59,14 @@ a.telegram {
   border: 1px solid black;
   cursor: pointer;
   transition: all 0.5s ease;
-}
+} */
 
 div.tg {
   position: absolute;
   right: 0px;
   top: 50px;
 }
-a.GitHub {
+/* a.GitHub {
   display: inline-block;
   background: #d38e47;
   color: white;
@@ -80,7 +82,7 @@ a.GitHub {
   border: 1px solid black;
   cursor: pointer;
   transition: all 0.5s ease;
-}
+} */
 div.git {
   position: absolute;
   right: 0px;
@@ -97,10 +99,15 @@ a.telegram:hover{
 ::selection {
   background-color: black;
   color: white
+
+}
+h1{
+  transition: 1s;
 }
 h1:hover{
   background-color: #56575d;
   transition: all 0.5s ease;
+  transform: scale(1.2)
 }
 body {
   /* background-image: url(3d-картинки-космос-на-рабочий-стол009.jpg);
@@ -109,3 +116,27 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+a.vk{
+  text-decoration: none;
+  background: none;
+  transition: 1s;
+
+}
+ a.tgg{
+  text-decoration: none;
+  background: none;
+  padding-left: 70px;
+  transition: 1s
+}
+ h1.sn{
+  background-color: #e0c579;
+  transition: 1s;
+ }
+ h1.sn:hover{
+  background-color: #d7a96e;
+  transition: all 0.5s ease;
+  transform: scale(1.2)
+ }
+ a.vk{
+  margin: 15px;
+ }
