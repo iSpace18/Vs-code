@@ -109,34 +109,34 @@ h1:hover{
   transition: all 0.5s ease;
   transform: scale(1.2)
 }
-body {
-  /* background-image: url(3d-картинки-космос-на-рабочий-стол009.jpg);
-  */
-  background-image: url(_original.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 a.vk{
   text-decoration: none;
   background: none;
   transition: 1s;
-
+  
 }
- a.tgg{
+a.tgg{
   text-decoration: none;
   background: none;
   padding-left: 70px;
   transition: 1s
 }
- h1.sn{
+h1.sn{
   background-color: #e0c579;
   transition: 1s;
- }
- h1.sn:hover{
+}
+h1.sn:hover{
   background-color: #d7a96e;
   transition: all 0.5s ease;
   transform: scale(1.2)
- }
- a.vk{
+}
+a.vk{
   margin: 15px;
  }
+   body {
+     /* background-image: url(3d-картинки-космос-на-рабочий-стол009.jpg);
+     */
+     background-image: url(_original.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+   }
